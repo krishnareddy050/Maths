@@ -1,0 +1,29 @@
+def  primeornot(n):
+    
+    if n<=1:
+        return False
+    
+    
+    
+    c=2
+    
+    while c*c<=n:
+        if n%c==0:
+            return False
+        
+        
+        c+=1
+        
+    return True
+
+
+result=primeornot(20)
+
+print(result)
+
+
+    
+    
+    
+    
+    
